@@ -1,0 +1,35 @@
+Jawablah pertanyaan di bawah ini:
+
+    1. Mohon jelaskan apa itu Node.js? Apa perbedannya dengan JavaScript?
+    
+    Node.js adalah runtime environment untuk JavaScript yang bersifat open-source dan cross-platform. 
+    Dengan Node.js kita dapat menjalankan kode JavaScript di mana pun, tidak hanya terbatas pada lingkungan browser.
+
+    Javascript adalah bahasa pemrograman yang bisa membuat internet bekerja.
+
+    
+    2. Mohon jelaskan arsitektur dari Node.js?
+
+    Node.js menggunakan arsitektur “Single Threaded Event Loop” untuk menangani beberapa client secara bersamaan. 
+    Model pemrosesan Node.js didasarkan pada model event-based JavaScript dan mekanisme callback JavaScript.
+
+    Berikut bagian-bagian arsitektur Node.js secara singkat:
+
+        Requests
+        Node.js server
+        Event queue
+        Thread pool
+        Event loop
+        External resources
+
+    3. Apa perbedaan antara Built-in Module, External Module, dan Custom Module pada Node.js?
+    Build-in module ialah modul yang sudah tersedia dalam node.js 
+    External module ialah modul yang harus disapat diluar node.js
+    Custom module modul yang dapat di buat sendri
+    
+    
+    4. Sebutkan salah satu contoh dari Built-in Module, External Module, dan Custom Module pada Node.js?
+    built-in modules (path)
+    exsternal module (sequelize)
+    custom module 
+
